@@ -1,0 +1,25 @@
+#navlinks a
+{
+	text-align: center;
+	display: block;
+	color: #FFF;
+	background-color: #337ab7;
+	font-size:15px;
+	width: 9em;
+	height: 1.7em;
+	text-decoration: none;
+	cursor:pointer;
+	transition: width 1s, height 1s, background-color 1s;
+}
+
+#navlinks a:hover
+{
+	background-color: #036;
+	color: #FFF;
+	/*width: 10em;*/
+	height: 1.9em;
+}
+
+p {
+	font-size:17px;
+}
