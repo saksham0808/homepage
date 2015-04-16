@@ -20,6 +20,14 @@
 	height: 1.9em;
 }
 
+.arch a:hover
+{
+	background-color: #036;
+	color: #FFF;
+	/*width: 10em;*/
+	height: 2.9em;
+}
+
 p {
 	font-size:17px;
 }
