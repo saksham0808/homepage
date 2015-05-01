@@ -31,7 +31,7 @@ echo '
 			<a href="https://facebook.com/saksham08">Facebook</a>
 		</div>
 		<div class="col-sm-3">
-			<a class="arch" href="Arch.docx">Ace Guide to Arch Linux</a>
+			<a class="arch" href="Arch.pdf">Ace Guide to Arch Linux</a>
 		</div>
 	</div>
 </div>
