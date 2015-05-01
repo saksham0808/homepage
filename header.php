@@ -1,6 +1,6 @@
 <?php
-$headeritems = array("index.php"=>"Home", "https://github.com/saksham0808"=>"GitHub", "https://facebook.com/saksham08"=>"Facebook", "Arch.pdf"=>"Ace Guide to Arch Linux");
-$headerwidth = "3";
+$headeritems = array("index.php"=>"Home", "cv.php"=>"CV", "https://github.com/saksham0808"=>"GitHub", "https://facebook.com/saksham08"=>"Facebook", "Arch.pdf"=>"Ace Guide to Arch Linux", "contact.php"=>"Contact me");
+$headerwidth = "2";
 
 $aloo = "index.php";
 $_GLOBALS['new'] = "/$aloo";
@@ -14,7 +14,7 @@ function echoclass($link) {
 	// Comparing current file name with link name using regex.
 	if (preg_match("/[a-z]+\.php$/", $link, $matches))
 	{
-		if(strcmp($matches[0], $filename))
+		if(strcmp("/$matches[0]", $filename)==0)
 			$itemclass="current";
 	}
 	return $itemclass;
@@ -43,7 +43,7 @@ echo '
 // Display each header item, reading from the associative array defined.
 foreach($headeritems as $link=>$dname)
 {
-	echo '<div class="col-sm-3">
+	echo '<div class="col-sm-2">
 			<a class="' . echoclass($link) . '" href="' . $link . '">' . $dname . '</a>
 		  </div>
 		';
