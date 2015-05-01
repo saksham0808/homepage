@@ -1,16 +1,25 @@
 <?php
-$headeritems = array("index.html"=>"Home", "https://github.com/saksham0808"=>"GitHub", "https://facebook.com/saksham08"=>"Facebook", "Arch.pdf"=>"Ace Guide to Arch Linux");
+$headeritems = array("index.php"=>"Home", "https://github.com/saksham0808"=>"GitHub", "https://facebook.com/saksham08"=>"Facebook", "Arch.pdf"=>"Ace Guide to Arch Linux");
 $headerwidth = "3";
 
-function echoclass($x) {
-	return "";
+$aloo = "index.php";
+$_GLOBALS['new'] = "/$aloo";
+function echoclass($link) {
+	global $filename;
+	$itemclass = "";
+	if ($link == "Arch.pdf")
+		$itemclass = "arch";
+
+	else if (strcmp("/$link", $filename) == false)
+		$itemclass = "current";
+	return $itemclass;
 }
 
 echo '
 <div class="row">
 	<div class="col-sm-7">
 		<h1>Saksham Sharma <br>
-			<small> B.Tech 1st Year, Computer Science and Engineering <br> IIT Kanpur </small>
+			<small>B.Tech 1st Year, Computer Science and Engineering <br> IIT Kanpur </small>
 		</h1>
 	</div>
 	<div class="col-xs-2">
@@ -26,22 +35,10 @@ echo '
 <div class="row bg-primary">
 	<div id="navlinks">';
 
-		//<div class="col-sm-3">
-			//<a href="index.html">Home</a> 
-		//</div>
-		//<div class="col-sm-3">
-			//<a href="https://github.com/saksham0808">GitHub</a>
-		//</div>
-		//<div class="col-sm-3">
-			//<a href="https://facebook.com/saksham08">Facebook</a>
-		//</div>
-		//<div class="col-sm-3">
-			//<a class="arch" href="Arch.pdf">Ace Guide to Arch Linux</a>
-		//</div>
 foreach($headeritems as $link=>$dname)
 {
 	echo '<div class="col-sm-3">
-			<a ' . echoclass($link) . ' href="' . $link . '">' . $dname . '</a>
+			<a class="' . echoclass($link) . '" href="' . $link . '">' . $dname . '</a>
 		  </div>
 		';
 }
