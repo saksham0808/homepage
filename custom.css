@@ -20,7 +20,19 @@
 	height: 1.9em;
 }
 
-.arch a:hover
+#navlinks a.current
+{
+	background-color: #33aab7;
+}
+
+#navlinks a.current:hover
+{
+	background-color: #036;
+	color: #FFF;
+	height: 1.9em;
+}
+
+#navlinks a.arch:hover
 {
 	background-color: #036;
 	color: #FFF;

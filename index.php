@@ -12,6 +12,7 @@
 	</head>
 	<body>
 		<div class="container-fluid">
+<<<<<<< HEAD:index.php
 			<div class="row">
 				<div class="col-sm-7">
 					<h1>Saksham Sharma <br>
@@ -45,6 +46,12 @@
 				</div>
 			</div>
 			<br><br>
+=======
+
+<?php $filename = $_SERVER['PHP_SELF']; ?>
+<?php include 'header.php' ?>
+
+>>>>>>> php:index.php
 			<p> Creative by heart. Coder by soul.</p>
 			<div class="row">
 				<div class="col-sm-6">
@@ -141,7 +148,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-3"></div>
+				<div class="col-sm-3">
+					<br><br>
+					&copy; 2014-<?php echo date("Y")?>
+				</div>
 				<div class="col-sm-3" align="right">
 					<small>
 						<a href="home.iitk.ac.in/~sakshams">home.iitk.ac.in/~sakshams</a><br>
