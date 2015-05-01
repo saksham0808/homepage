@@ -1,12 +1,12 @@
 <?php
 echo '
 <div class="row">
-	<div class="col-sm-5">
+	<div class="col-sm-7">
 		<h1>Saksham Sharma <br>
 			<small> B.Tech 1st Year, Computer Science and Engineering <br> IIT Kanpur </small>
 		</h1>
 	</div>
-	<div class="col-xs-4">
+	<div class="col-xs-2">
 		<br><br><br>
 		<blockquote>Eat.Sleep.Code.</blockquote>
 	</div>
