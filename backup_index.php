@@ -9,45 +9,69 @@
 
 		<LINK REL=StyleSheet HREF="custom.css" TYPE="text/css">
 		<title>Saksham Sharma</title>
+
+
+
 	</head>
 	<body>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-7">
-					<h1>Saksham Sharma <br>
-						<small> B.Tech 1st Year, Computer Science and Engineering <br> IIT Kanpur </small>
-					</h1>
-				</div>
-				<div class="col-xs-4">
-					<br><br><br>
-					<blockquote>Eat.Sleep.Code.</blockquote>
-				</div>
-				<div class="col-sm-1 img-responsive pull-right box-shadow">
-					<br>
-					<img src="me.jpg" class="img-rounded" height="140" align="right" id="box-shadow-custom">
-				</div>
-			</div>
-			<br>
-			<div class="row bg-primary">
-				<div id="navlinks">
-					<div class="col-sm-3">
-						<a href="index.html">Home</a>
-					</div>
-					<!--<div class="col-sm-3">-->
-						<!--<a href="https://drive.google.com/file/d/0BycAe9jSwiorS21reVJpcXlfcU0/view?usp=sharing">My Resume</a>-->
-					<!--</div>-->
-					<div class="col-sm-3">
-						<a href="https://github.com/saksham0808">GitHub</a>
-					</div>
-					<div class="col-sm-3">
-						<a href="https://facebook.com/saksham08">Facebook</a>
-					</div>
-					<div class="col-sm-3">
-						<a class="arch" href="Arch.docx">Ace Guide to Arch Linux</a>
-					</div>
-				</div>
-			</div>
-			<br><br>
+
+<!-- Retreving screen resolutions -->
+<?php
+//session_start();
+//if(isset($_SESSION['screen_width']) AND isset($_SESSION['screen_height'])){
+	//echo 'User resolution: ' . $_SESSION['screen_width'] . 'x' . $_SESSION['screen_height'];
+//} else if(isset($_REQUEST['width']) AND isset($_REQUEST['height'])) {
+    //$_SESSION['screen_width'] = $_REQUEST['width'];
+    //$_SESSION['screen_height'] = $_REQUEST['height'];
+    //header('Location: ' . $_SERVER['PHP_SELF']);
+//} else {
+	//echo '<script type="text/javascript">window.location = "' . $_SERVER['PHP_SELF'] . '?width="+ document.body.clientWidth + "&height="+window.screen.height;</script>';
+//}
+
+//echo 'User resolution: ' . $_SESSION['screen_width'] . 'x' . $_SESSION['screen_height'];
+//$GLOBAL['desktop']=1;
+//if ($_SESSION['screen_width'] < "1048")
+	//$GLOBAL['desktop'] = 0;
+
+?>
+		<div class="containerfluid">
+
+<div class="row">
+	<div class="col-sm-5">
+		<h1>Saksham Sharma <br>
+			<small> B.Tech 1st Year, Computer Science and Engineering <br> IIT Kanpur </small>
+		</h1>
+	</div>
+	<div class="col-xs-4">
+		<br><br><br>
+		<blockquote>Eat.Sleep.Code.</blockquote>
+	</div>
+	<div class="col-sm-1 img-responsive pull-right box-shadow">
+		<br>
+		<img src="me.jpg" class="img-rounded" height="140" align="right" id="box-shadow-custom">
+	</div>
+</div>
+<br>
+<div class="row bg-primary">
+	<div id="navlinks">
+		<div class="col-sm-3">
+			<a href="index.html">Home</a>
+		</div>
+		<!--<div class="col-sm-3">-->
+			<!--<a href="https://drive.google.com/file/d/0BycAe9jSwiorS21reVJpcXlfcU0/view?usp=sharing">My Resume</a>-->
+		<!--</div>-->
+		<div class="col-sm-3">
+			<a href="https://github.com/saksham0808">GitHub</a>
+		</div>
+		<div class="col-sm-3">
+			<a href="https://facebook.com/saksham08">Facebook</a>
+		</div>
+		<div class="col-sm-3">
+			<a class="arch" href="Arch.docx">Ace Guide to Arch Linux</a>
+		</div>
+	</div>
+</div>
+<br><br>
 			<p> Creative by heart. Coder by soul.</p>
 			<div class="row">
 				<div class="col-sm-6">
@@ -115,9 +139,9 @@
 				</div>
 
 				<div class="col-sm-3">
-					<h3 align="center">Topics of interest:</h3>
+					<h3 <?php if($GLOBAL['desktop']): ?> align='center' <?php endif;?> >Topics of interest:</h3>
 					<table class="table table-hover">
-						<tbody align="center">
+						<tbody <?php if($GLOBAL['desktop']): ?> align='center' <?php endif;?> >
 							<tr><td>Software and App development</td></tr>
 							<tr><td>Linux and Open Source</td></tr>
 							<tr><td>Algorithms</td></tr>
@@ -130,15 +154,9 @@
 				</div>
 
 				<div class="col-sm-3">
-					<!--<h3 align="right">Other interests:</h3>-->
-					<h3 align="right">Relevant courses:</h3>
+					<h3 <?php if($GLOBAL['desktop']): ?> align='right' <?php else: ?> align='left' <?php endif;?> >Relevant courses:</h3>
 					<table class="table table-hover">
-						<tbody align="right">
-							<!--<tr><td>Photography</td></tr>-->
-							<!--<tr><td>Badminton</td></tr>-->
-							<!--<tr><td>Reading</td></tr>-->
-							<!--<tr><td>Literature</td></tr>-->
-							<!--<tr><td>Gaming</td></tr>-->
+						<tbody <?php if($GLOBAL['desktop']): ?> align='right' <?php endif;?>  >
 							<tr><td>Introduction to Programming - Received A* grade for exceptional performance.</td></tr>
 							<tr><td>Real analysis</td></tr>
 							<tr><td>Linear Algebra</td></tr>
@@ -151,7 +169,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-3"></div>
+				<div class="col-sm-3">
+					<br><br>
+					&copy; 2014-<?php echo date("Y")?>
+				</div>
 				<div class="col-sm-3" align="right">
 					<small>
 						<a href="home.iitk.ac.in/~sakshams">home.iitk.ac.in/~sakshams</a><br>
@@ -171,11 +192,15 @@
 					<a href="http://www.hitwebcounter.com/htmltutorial.php" target="_blank">
 						<img src="http://hitwebcounter.com/counter/counter.php?page=6051596&style=0008&nbdigits=5&type=ip&initCount=0" title="http://www.hitwebcounter.com/htmltutorial.php" Alt="http://www.hitwebcounter.com/htmltutorial.php"   border="0" >
 					</a><br/>
-					<!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com/internetcountercontact.php" title="Hitwebcounter" 
+					<a href="http://www.hitwebcounter.com/internetcountercontact.php" title="Hitwebcounter" 
 																								 target="_blank" style="font-family: Arial, Helvetica, sans-serif; 
 																								 font-size: 9px; color: #6A7175; text-decoration: underline ;"><strong>Hitwebcounter</strong>
+
 					</a>   
 
 				</div>
+			</div>
+		<p align="center">
+		</p>
 	</body>
 </html>
