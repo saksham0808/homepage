@@ -12,7 +12,10 @@
 	</head>
 	<body>
 		<div class="container-fluid">
+
+<?php $filename = $_SERVER['PHP_SELF']; ?>
 <?php include 'header.php' ?>
+
 			<p> Creative by heart. Coder by soul.</p>
 			<div class="row">
 				<div class="col-sm-6">

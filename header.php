@@ -1,4 +1,11 @@
 <?php
+$headeritems = array("index.html"=>"Home", "https://github.com/saksham0808"=>"GitHub", "https://facebook.com/saksham08"=>"Facebook", "Arch.pdf"=>"Ace Guide to Arch Linux");
+$headerwidth = "3";
+
+function echoclass($x) {
+	return "";
+}
+
 echo '
 <div class="row">
 	<div class="col-sm-7">
@@ -17,24 +24,31 @@ echo '
 </div>
 <br>
 <div class="row bg-primary">
-	<div id="navlinks">
-		<div class="col-sm-3">
-			<a href="index.html">Home</a> 
-		</div>
-		<!--<div class="col-sm-3">-->
-			<!--<a href="https://drive.google.com/file/d/0BycAe9jSwiorS21reVJpcXlfcU0/view?usp=sharing">My Resume</a>-->
-		<!--</div>-->
-		<div class="col-sm-3">
-			<a href="https://github.com/saksham0808">GitHub</a>
-		</div>
-		<div class="col-sm-3">
-			<a href="https://facebook.com/saksham08">Facebook</a>
-		</div>
-		<div class="col-sm-3">
-			<a class="arch" href="Arch.pdf">Ace Guide to Arch Linux</a>
-		</div>
+	<div id="navlinks">';
+
+		//<div class="col-sm-3">
+			//<a href="index.html">Home</a> 
+		//</div>
+		//<div class="col-sm-3">
+			//<a href="https://github.com/saksham0808">GitHub</a>
+		//</div>
+		//<div class="col-sm-3">
+			//<a href="https://facebook.com/saksham08">Facebook</a>
+		//</div>
+		//<div class="col-sm-3">
+			//<a class="arch" href="Arch.pdf">Ace Guide to Arch Linux</a>
+		//</div>
+foreach($headeritems as $link=>$dname)
+{
+	echo '<div class="col-sm-3">
+			<a ' . echoclass($link) . ' href="' . $link . '">' . $dname . '</a>
+		  </div>
+		';
+}
+
+echo '
 	</div>
 </div>
 <br><br>
-'
+';
 ?>
