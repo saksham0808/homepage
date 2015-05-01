@@ -19,7 +19,7 @@ echo '
 <div class="row bg-primary">
 	<div id="navlinks">
 		<div class="col-sm-3">
-			<a href="index.html">Home</a>
+			<a href="index.html">Home</a> 
 		</div>
 		<!--<div class="col-sm-3">-->
 			<!--<a href="https://drive.google.com/file/d/0BycAe9jSwiorS21reVJpcXlfcU0/view?usp=sharing">My Resume</a>-->

@@ -109,7 +109,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-3"></div>
+				<div class="col-sm-3">
+					<br><br>
+					&copy; 2014-<?php echo date("Y")?>
+				</div>
 				<div class="col-sm-3" align="right">
 					<small>
 						<a href="home.iitk.ac.in/~sakshams">home.iitk.ac.in/~sakshams</a><br>
