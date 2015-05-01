@@ -1,0 +1,25 @@
+<br><p><h4>Hello, Namaste, Bonjour!</h4></p>
+<p>
+I am a soon-to-be sophomore student of Computer Science and Engineering at the Indian Institute of Technology, Kanpur; also known as IIT Kanpur.<br></p>
+<p>
+Some would say I am one of the good coders of my batch. Trying not to sound too complacent, I believe I am, am always coding up something new, this website being one of them, coded it all to have a good grip over web-development. Well, I wanted to make a website I could be proud of for a while, and not look back at it to think it is kiddish.</p>
+<p>Getting back to the topic, I feel my journey into the world of coding has been an exceptional one. From a person who didn't even know arrays ( yep! ) when he came to college, to a person coding complete websites from scratch and such stuff, yes it has been extraordinary. <br>
+I figured it would be a good idea if my journey through the world of code is penned down. 
+</p>
+<br>
+<p><h4>Some bits about me:</h4></p>
+<div class="bits">
+	<p>I'm a fun loving, tall, lanky guy who codes 80% of the time of the day.</p>
+	<p>Apart from coding, I am into PC gaming, badminton, photography and literature.</p>
+	<p>I recently rekindled my interest in writing and poetry. Would be posting some things here soon in the musings section.</p>
+</div>
+<div class="bits">
+<br>
+	<span>I <3 Linux</span>
+	<p>One thing I haven't mentioned, is my love for everything Linux. Literally everything. I have installed Arch linux (my favorite, forever. Period.) around 30-40 times, in different scenarios, on different laptops, and thus have a well rounded experience.
+		Not just install, I tend to customize it a lot, have a look at 'my-rc-files' repo on my git.
+	</p>
+<br>
+	<span>Vim</span>
+	<p>Vim is my favorite (wait, not favorite, ONLY) text editor. One vim for everything under the sun. My vimrc is quite a decent looking one too. Try giving it a look for some good ideas about how to get more productive with vim. It's there in the above mentioned repo.</p>
+<br>

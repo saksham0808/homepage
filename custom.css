@@ -40,6 +40,14 @@
 	height: 2.9em;
 }
 
+#sidebar li
+{
+}
+
+span {
+	font-size: 18px;
+}
+
 p {
 	font-size:17px;
 }

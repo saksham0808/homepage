@@ -21,15 +21,43 @@
 
 		<div class="row">
 			<div class="col-sm-2">
+				<!--<br><br><br><br>-->
+				<!--<ul id="sidebar">-->
+					<!--<li>Facebook</li>-->
+					<!--//<li>Instagram</li>-->
+				<!--</ul>	-->
 			</div>
-			<div class="col-sm-10">
+			<div class="col-sm-9">
 			
-				<h2>Reverie of a hacker in making</h2>
-				<p>
-				</p>
+				<h2><mark>Reverie of a coder</mark></h2>
+				<?php echo readfile("reverie.txt"); ?>
 
 			</div>	
 		</div>
+
+<?php
+//$servername = "localhost";
+//$username = "root";
+//$password = "0808";
+
+//$conn = mysqli_connect($servername, $username, $password);
+
+//if (!$conn) {
+    //die("Connection failed: " . mysqli_connect_error());
+//}
+//echo "Connected successfully";
+?>
+
+		<!--<div class="row">-->
+		<!--<div class="col-sm-4"></div>-->
+		<!--<div class="col-sm-4" align="center">-->
+			<!--<br><br>-->
+			<!--Like this website? Give me a thumbs up ! Have a nice day ! :)-->
+			<!--<form method="post" action="*****">-->
+				<!--<input type="image" src="thumbsup.gif" alt="Good work!" name="submit">-->
+			<!--</input>	-->
+		<!--</div>-->
+		<!--<div class="col-sm-4"></div>-->
 
 		<!-- Closing tag for container-fluid follows -->
 		</div>

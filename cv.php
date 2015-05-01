@@ -59,7 +59,7 @@
 					<table class="table table-hover">
 						<tbody>
 							<tr><td>C, C++, Python, Java, C# </td></tr>
-							<tr><td>HTML/CSS, JavaScript, Bootstrap</td></tr>
+							<tr><td>HTML/CSS, PHP, JavaScript, Bootstrap</td></tr>
 							<tr><td>Linux (Arch Linux and Debian based distributions)</td></tr>
 							<tr><td>OpenCV, Matlab/Octave</td></tr>
 							<tr><td>Windows phone and Android app development</td></tr>
