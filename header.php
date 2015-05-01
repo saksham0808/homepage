@@ -7,11 +7,16 @@ $_GLOBALS['new'] = "/$aloo";
 function echoclass($link) {
 	global $filename;
 	$itemclass = "";
+	// This name is long so we want the hover height to be larger
 	if ($link == "Arch.pdf")
 		$itemclass = "arch";
 
-	else if (strcmp("/$link", $filename) == false)
-		$itemclass = "current";
+	// Comparing current file name with link name using regex.
+	if (preg_match("/[a-z]+\.php$/", $link, $matches))
+	{
+		if(strcmp($matches[0], $filename))
+			$itemclass="current";
+	}
 	return $itemclass;
 }
 
@@ -35,6 +40,7 @@ echo '
 <div class="row bg-primary">
 	<div id="navlinks">';
 
+// Display each header item, reading from the associative array defined.
 foreach($headeritems as $link=>$dname)
 {
 	echo '<div class="col-sm-3">
