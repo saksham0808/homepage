@@ -1,3 +1,11 @@
+a:hover {
+	text-decoration: none;
+}
+
+#writings {
+	font-style: italic;
+}
+
 #navlinks a
 {
 	text-align: center;
