@@ -18,7 +18,6 @@
 
 ?>
 <?php include 'header.php' ?>
-			<p> Creative by heart. Coder by soul.</p>
 			<div class="row">
 				<div class="col-sm-6">
 					<h3 align="center">Experience and Positions held:</h3>

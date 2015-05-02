@@ -14,7 +14,7 @@ Somehow, I met this guy Pallav here who seemed as enthusiastic about coding as m
 This is when I got into algorithms. My ESC course was in progress, and codechef was a well recommended place to start. I started thinking of algorithms all day, it is fun when you have another friend do the same.
 Soon, I met Kunal (a.k.a. Kapila), the algorithmic god of our batch. Codechef became my favorite passtime, even as my mid semesters approached, I would still code for hours everyday.'
 
-
+To be completed, thanks for your patience :)
 
 content;
 

@@ -26,7 +26,7 @@
 <!-- Markdown version of writing begins -->
 <?php
          // include markdown content as seperate file for maintainability
-          require_once("mdvoyage.md");
+          require_once("mdlinuxpro.md");
           
           //setup parsedown
           require_once("parsedown.php");
@@ -35,8 +35,7 @@
           //parse markdown as html
           echo $parsedown->text($markdown); 
 ?>
-<?php include 'writeups.php'?>
-
+<?php include 'writeups.php' ?>
 			</div>	
 		</div>
 

@@ -18,7 +18,6 @@
 
 ?>
 <?php include 'header.php' ?>
-
 		<div class="row">
 			<div class="col-sm-2">
 				<!--<br><br><br><br>-->
@@ -27,16 +26,11 @@
 					<!--//<li>Instagram</li>-->
 				<!--</ul>	-->
 			</div>
-			<div class="col-sm-9">
-			
+			<div class="col-sm-9">	
 				<h2><mark>Reveries of a coder</mark></h2>
 				<?php echo readfile("reverie.txt"); ?>
 				
-				<h3 id="writings">My writings: </h3>
-				<blockquote><a href="voyage.php">My Voyage through the seas of programming</a></blockquote>
-				<blockquote><a href="shell.php">Where there is a shell, there is a way</a></blockquote>
-				<blockquote><a href="linuxpro.php">Mod your linux like a pro</a></blockquote>
-				<blockquote><a href="Arch.pdf">Ace guide to Arch Linux</a></blockquote>
+				<?php include 'writeups.php'?>
 
 			</div>	
 		</div>
