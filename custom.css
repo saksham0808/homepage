@@ -25,7 +25,7 @@ a:hover {
 	background-color: #036;
 	color: #FFF;
 	/*width: 10em;*/
-	height: 1.9em;
+	height: 1.8em;
 }
 
 #navlinks a.current
@@ -37,7 +37,7 @@ a:hover {
 {
 	background-color: #339ab7;
 	color: #FFF;
-	height: 1.9em;
+	height: 1.8em;
 }
 
 #navlinks a.arch:hover

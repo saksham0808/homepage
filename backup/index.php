@@ -7,12 +7,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script>
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover(); 
-});
-</script>
-
 		<LINK REL=StyleSheet HREF="custom.css" TYPE="text/css">
 		<title>Saksham Sharma</title>
 	</head>

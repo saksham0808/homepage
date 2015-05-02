@@ -21,5 +21,5 @@ I figured it would be a good idea if my journey through the world of code is pen
 	</p>
 <br>
 	<span>Vim</span>
-	<p>Vim is my favorite (wait, not favorite, ONLY) text editor. One vim for everything under the sun. My vimrc is quite a decent looking one too. Try giving it a look for some good ideas about how to get more productive with vim. I believe everyone would find something useful in there. It's there in the above mentioned repo.</p>
+	<p>Vim is my favorite (wait, not just favorite, ONLY) text editor. One vim for everything under the sun. My vimrc is quite a decent looking one too. Try giving it a look for some good ideas about how to get more productive with vim. I believe everyone would find something useful in there. It's there in the above mentioned repo.</p>
 <br>
