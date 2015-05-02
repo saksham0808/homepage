@@ -12,9 +12,9 @@ function echoclass($link) {
 		$itemclass = "arch";
 
 	// Comparing current file name with link name using regex.
-	if (preg_match("/[a-z]+\.php$/", $link, $matches))
+	if (preg_match("/[a-z]+\.php$/", $filename, $matches))
 	{
-		if(strcmp("/$matches[0]", $filename)==0)
+		if(strcmp("$matches[0]", $link)==0)
 			$itemclass="current";
 	}
 	return $itemclass;
