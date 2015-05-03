@@ -20,6 +20,7 @@
 					<h2><mark>Reveries of a coder</mark></h2>
 					<?php echo readfile("reverie.txt"); ?>
 					<?php include 'writeups.php'?>
+					<?php include 'comments.php'?>
 				</div>	
 			</div>
 			<?php include 'footer.php' ?>

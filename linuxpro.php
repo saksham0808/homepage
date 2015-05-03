@@ -12,31 +12,27 @@
 	</head>
 	<body>
 		<div class="container-fluid">
-
-<?php $filename = $_SERVER['PHP_SELF'];?>
-<?php
-
-?>
-<?php include 'header.php' ?>
-
-		<div class="row">
-			<div class="col-sm-2"> </div>
-			<div class="col-sm-9">
+			<?php $filename = $_SERVER['PHP_SELF'];?>
+			<?php include 'header.php' ?>
+			<div class="row">
+				<div class="col-sm-2"> </div>
+				<div class="col-sm-9">
 			
-<!-- Markdown version of writing begins -->
-<?php
-         // include markdown content as seperate file for maintainability
-          require_once("mdlinuxpro.md");
-          
-          //setup parsedown
-          require_once("parsedown.php");
-          $parsedown = new parsedown();
-          
-          //parse markdown as html
-          echo $parsedown->text($markdown); 
-?>
-<?php include 'writeups.php' ?>
+				<?php
+		         // include markdown content as seperate file for maintainability
+		          require_once("mdlinuxpro.md");
+	          
+    		      //setup parsedown
+		          require_once("parsedown.php");
+		          $parsedown = new parsedown();
+		          
+		          //parse markdown as html
+		          echo $parsedown->text($markdown); 
+				?>
+				<?php include 'comments.php'?>
+				<?php include 'writeups.php'?>
 			</div>	
+			<?php include 'footer.php'?>
 		</div>
 
 	</body>
