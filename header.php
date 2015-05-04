@@ -2,8 +2,6 @@
 $headeritems = array("index.php"=>"Home", "cv.php"=>"CV", "carousel.php"=>"Photography", "https://github.com/saksham0808"=>"GitHub", "Arch.pdf"=>"Ace Guide to Arch Linux", "contact.php"=>"Contact me");
 $headerwidth = "2";
 
-$aloo = "index.php";
-$_GLOBALS['new'] = "/$aloo";
 function echoclass($link) {
 	global $filename;
 	$itemclass = "";
@@ -18,6 +16,11 @@ function echoclass($link) {
 			$itemclass="current";
 	}
 	return $itemclass;
+}
+
+function echotarget($link) {
+	if ($link == "Arch.pdf" || $link == "https://github.com/saksham0808")
+		return 'target="_blank"';
 }
 
 echo '
@@ -44,7 +47,7 @@ echo '
 foreach($headeritems as $link=>$dname)
 {
 	echo '<div class="col-sm-' . $headerwidth . '">
-			<a class="' . echoclass($link) . '" href="' . $link . '">' . $dname . '</a>
+			<a class="' . echoclass($link) . '" ' . echotarget($link) . ' href="' . $link . '">' . $dname . '</a>
 		  </div>
 		';
 }
