@@ -2,7 +2,7 @@
 <p>
 I am a soon-to-be sophomore student of Computer Science and Engineering at the Indian Institute of Technology, Kanpur; also known as IIT Kanpur.<br></p>
 <p>
-Some would say I am one of the good coders of my batch. Trying not to sound too complacent, I believe I am, am always coding up something new, this website being one of them, coded it all to have a good grip over web-development. Well, I wanted to make a website I could be proud of for a while, and not look back at it to think it is kiddish.</p>
+Some would say I am one of the good coders of my batch. Trying not to sound too complacent, I believe I am, am always coding up something new, this website being one of them, coded it up all from scratch to have a good grip over web-development. Well, I wanted to make a website I could be proud of for a while, and not look back at it to think it is kiddish.</p>
 <p>Getting back to the topic, I feel my journey into the world of coding has been an exceptional one. From a person who didn't even know arrays ( yep! ) when he came to college, to a person coding complete websites from scratch and such stuff, yes it has been extraordinary. <br>
 I figured it would be a good idea if my journey through the world of code is penned down. 
 </p>
@@ -23,3 +23,7 @@ I figured it would be a good idea if my journey through the world of code is pen
 	<span>Vim</span>
 	<p>Vim is my favorite (wait, not just favorite, ONLY) text editor. One vim for everything under the sun. My vimrc is quite a decent looking one too. Try giving it a look for some good ideas about how to get more productive with vim. I believe everyone would find something useful in there. It's there in the above mentioned repo.</p>
 <br>
+	<span>Photography</span>
+	<p>Although I spend too much time coding, I tend to be on the lookout for photogenic scenes whenever I leave my room. Have a look at some of my Amatuer photographs <mark><a href="carousel.php">here</a></mark>.</p>
+<br>
+</div>

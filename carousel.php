@@ -55,7 +55,8 @@ $(document).ready(function(){
 
 
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8">
 <!-- Code for carousel -->
 <div class="container" align="center">
   <div id="myCarousel" class="carousel slide" style="width:500px;">
@@ -101,6 +102,7 @@ $(document).ready(function(){
 </div>
 <!--Code for carousel finish-->
 			</div>	
+			<div class="col-sm-2"></div>
 		</div>
 
 	</body>

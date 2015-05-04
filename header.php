@@ -1,5 +1,5 @@
 <?php
-$headeritems = array("index.php"=>"Home", "cv.php"=>"CV", "https://github.com/saksham0808"=>"GitHub", "https://facebook.com/saksham08"=>"Facebook", "Arch.pdf"=>"Ace Guide to Arch Linux", "contact.php"=>"Contact me");
+$headeritems = array("index.php"=>"Home", "cv.php"=>"CV", "carousel.php"=>"Photography", "https://github.com/saksham0808"=>"GitHub", "Arch.pdf"=>"Ace Guide to Arch Linux", "contact.php"=>"Contact me");
 $headerwidth = "2";
 
 $aloo = "index.php";
@@ -43,7 +43,7 @@ echo '
 // Display each header item, reading from the associative array defined.
 foreach($headeritems as $link=>$dname)
 {
-	echo '<div class="col-sm-2">
+	echo '<div class="col-sm-' . $headerwidth . '">
 			<a class="' . echoclass($link) . '" href="' . $link . '">' . $dname . '</a>
 		  </div>
 		';
