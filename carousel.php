@@ -13,6 +13,13 @@
       margin: auto;
   }
   </style>
+	<style>
+		img.displayed {
+			display: block;
+			margin-left: auto;
+			margin-right: auto
+		}
+	</style>
 
 
 		<LINK REL=StyleSheet HREF="custom.css" TYPE="text/css">
@@ -59,7 +66,7 @@ $(document).ready(function(){
 			<div class="col-sm-8">
 <!-- Code for carousel -->
 <div class="container" align="center">
-  <div id="myCarousel" class="carousel slide" style="width:500px;">
+  <div id="myCarousel" class="carousel slide">
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
 	  <li class="item1 active"></li>
@@ -72,19 +79,19 @@ $(document).ready(function(){
 	<div class="carousel-inner" role="listbox">
 
 	  <div class="item active">
-		<img src="images/Fall.jpg" alt="Fall" class="img-rounded" id="box-shadow-custom">
+		<img src="images/Fall.jpg" alt="Fall" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	  <div class="item">
-		<img src="images/Juhu.jpg" alt="Juhu" class="img-rounded" id="box-shadow-custom">
+		<img src="images/Juhu.jpg" alt="Juhu" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	  <div class="item">
-		<img src="images/long.jpg" alt="Long way to go" width="460" height="345" class="img-rounded" id="box-shadow-custom">
+		<img src="images/long.jpg" alt="Long way to go" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	  <div class="item">
-		<img src="images/Reflections.jpg" alt="Reflections" width="460" height="345" class="img-rounded" id="box-shadow-custom">
+		<img src="images/Reflections.jpg" alt="Reflections" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	</div>
