@@ -24,24 +24,9 @@ function echotarget($link) {
 }
 
 echo '
-<div class="row">
-	<div class="col-sm-7">
-		<h1>Saksham Sharma <br>
-			<small>B.Tech 1st Year, Computer Science and Engineering <br> IIT Kanpur </small>
-		</h1>
-	</div>
-	<div class="col-xs-2">
-		<br><br><br>
-		<blockquote>Eat.Sleep.Code.</blockquote>
-	</div>
-	<div class="col-sm-1 img-responsive pull-right box-shadow">
-		<br>
-		<img src="me.jpg" class="img-rounded" height="140" align="right" id="box-shadow-custom">
-	</div>
-</div>
-<br>
+<nav class="fixed-nav-bar">
 <div class="row bg-primary">
-	<div id="navlinks" role="navigation">';
+	<div id="navlinks1" role="navigation">';
 
 // Display each header item, reading from the associative array defined.
 foreach($headeritems as $link=>$dname)
@@ -55,6 +40,7 @@ foreach($headeritems as $link=>$dname)
 echo '
 	</div>
 </div>
+</nav>
 <br><br>
 ';
 ?>

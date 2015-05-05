@@ -22,7 +22,8 @@ echo '
           <h4 class="modal-title">Comment unsuccessful</h4>
         </div>
         <div class="modal-body">
-          <p>Still, thanks for taking out your time.</p>
+		  <p>Still, thanks for taking out your time.</p>
+		  <p>Psst, its a feature, not a bug ;) </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

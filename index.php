@@ -9,6 +9,24 @@
 
 		<LINK REL=StyleSheet HREF="custom.css" TYPE="text/css">
 		<title>Saksham Sharma</title>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(window).on('scroll',function() {
+    var scrolltop = $(this).scrollTop();
+ 
+    if(scrolltop >= 215) {
+      $('#navbackup').fadeIn(250);
+    }
+     
+    else if(scrolltop <= 210) {
+      $('#navbackup').fadeOut(250);
+    }
+  });
+});
+</script>
+
+
 	</head>
 	<body>
 		<div class="container-fluid">

@@ -10,11 +10,31 @@ I was *naive*, hadn't even heard of algorithms by then. When I met a programming
 I used to think I can start development any time, by virtue of my knowlegde of computers. I was wrong. In more ways than one.\n
 
 Somehow, I met this guy Pallav here who seemed as enthusiastic about coding as me, albeit with a hundred times more experience than me. We both got together to code. All day long, sitting in the hall computer room.\n
-**Algorithms**
+**Algorithms**\n
 This is when I got into algorithms. My ESC course was in progress, and codechef was a well recommended place to start. I started thinking of algorithms all day, it is fun when you have another friend do the same.
-Soon, I met Kunal (a.k.a. Kapila), the algorithmic god of our batch. Codechef became my favorite passtime, even as my mid semesters approached, I would still code for hours everyday.'
+Soon, I met Kunal (a.k.a. Kapila), the algorithmic god of our batch. Codechef became my favorite passtime, even as my mid semesters approached, I would still code for hours everyday.\n
+My the end of my semester, I felt quite comfortable with algorithms by the standard of a person who learnt proper coding just 4 months ago. 
+I did 6/10 questions in the November long that month, and got a rating of 3000+ in a single contest. This was the last of algorithms for me for a long time.\n
 
-To be completed, thanks for your patience :)
+**Robocon**\n
+I got selected in the Robocon team of IIT Kanpur. By October end, I had decided I would be going into the image processing team. It was there that I met Lakshay Garg, a senior who would be insipiring my endeavours for the many months.
+There, I learnt the basics of Image Processing in OpenCV (By march, I knew quite some Image Processing). Now as you would expect, using it in Windows got troublesome after a while, as we had to be coding lots of stuff, and we made a life changing decision to shift to Linux.\n
+Shifting to linux, learning to set up everything in Linux and learning to optimize our time (using vim for example, I shifted to vim completely soon enough.) laid the basis for all of my linux knowlegde. I developed a deep interest in everything Linux.\n
+
+**Linux**\n
+Now as often happens, I didn't stop there. I kept learning new things about Linux, began to love the terminal more than the GUI utilities. Lakshay and Pallav shared the same interest, and together we 3 would try out new things everyday.
+One fine day, I thought of trying out Arch Linux, another life changing decision. I learnt the inners of Linux installing it. I used to be the one people called to install Ubuntu, now I was here, having ditched Ubuntu for Arch. 
+Set it up properly in 2 days, and then installed it again. By the time I got a new laptop, I was at a stage where I would install OS thrice in 24 hours. I tried multiple things, tested out packages, did whatever I saw related to Linux.\n
+By the end of the semester, I had installed my Arch approximately 30 times. It was fun for me. I would remove it and install it again just for the fun (I must say I couldn't have done that if IITK didn't have its own Arch Linux mirror).
+I also learnt CLI utilities like grep and sed, and started writing shell scripts for everything I would do multiple times. Even spent a full day and night installing Gentoo. Another learning experience was configuring my Arch to run just off i3 window manager (no GNOME).\n
+
+**Development**\n
+I, Pallav and Kapila participated in Microsoft's hackathon code.fun.do in January, hoping we could win a T-Shirt atleast, by completing whatever app we would try to make. Surprise Surprise, we came first, ahead of so many seniors who participated.\n
+That was the first proper development activity I had done, other than the Robocon code. After coming back from Robocon (Pune, March 1st week), I started learning development along with Linux. \n
+At the end of the semester, I learnt backend Web Development a bit, when I made this website as a practice activity. I also got selected for a Web Development internship for the IITK NYC office.
+By this time I am very much into Development, and in the summers, I have this internship, and the code.fun.do final round, so possibly I'd be at a much better stage by the time this summer ends.\n
+
+To be continued..
 
 content;
 
