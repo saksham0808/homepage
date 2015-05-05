@@ -29,7 +29,7 @@ By the end of the semester, I had installed my Arch approximately 30 times. It w
 I also learnt CLI utilities like grep and sed, and started writing shell scripts for everything I would do multiple times. Even spent a full day and night installing Gentoo. Another learning experience was configuring my Arch to run just off i3 window manager (no GNOME).\n
 
 **Development**\n
-I, Pallav and Kapila participated in Microsoft's hackathon code.fun.do in January, hoping we could win a T-Shirt atleast, by completing whatever app we would try to make. Surprise Surprise, we came first, ahead of so many seniors who participated.\n
+I, Pallav and Kunal participated in Microsoft's hackathon code.fun.do in January, hoping we could win a T-Shirt atleast, by completing whatever app we would try to make. Surprise Surprise, we came first, ahead of so many seniors who participated.\n
 That was the first proper development activity I had done, other than the Robocon code. After coming back from Robocon (Pune, March 1st week), I started learning development along with Linux. \n
 At the end of the semester, I learnt backend Web Development a bit, when I made this website as a practice activity. I also got selected for a Web Development internship for the IITK NYC office.
 By this time I am very much into Development, and in the summers, I have this internship, and the code.fun.do final round, so possibly I'd be at a much better stage by the time this summer ends.\n

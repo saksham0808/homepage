@@ -16,7 +16,7 @@ I figured it would be a good idea if my journey through the world of code is pen
 <div class="bits">
 <br>
 	<span>I <3 Linux</span>
-	<p>Yes, I love Linux. Literally everything about it. I have installed Arch linux (my favorite, forever. Period.) around 30-40 times, in different scenarios, on different laptops, and thus have a well rounded experience.
+	<p>Yes, I love Linux. Literally everything about it. I have installed Arch linux (my favorite, forever. Period.) around 25-30 times, in different scenarios, on different laptops, and thus have a well rounded experience.
 		Not just install, I tend to customize it a lot, have a look at 'my-rc-files' repo on my git.
 	</p>
 <br>
