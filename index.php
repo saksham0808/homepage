@@ -32,14 +32,16 @@ $(document).ready(function(){
 		<div class="container-fluid">
 			<?php $filename = $_SERVER['PHP_SELF'];?>
 			<?php include 'header.php' ?>
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-9">	
-					<h2><mark>Reveries of a coder</mark></h2>
-					<?php echo readfile("reverie.txt"); ?>
-					<?php include 'writeups.php'?>
-					<?php include 'comments.php'?>
-				</div>	
+			<div class="container">
+				<div class="row">
+					<!--<div class="col-sm-2"></div>-->
+					<div class="col-sm-12">	
+						<h2><mark>Reveries of a coder</mark></h2>
+						<?php echo readfile("reverie.txt"); ?>
+						<?php include 'writeups.php'?>
+						<?php include 'comments.php'?>
+					</div>	
+				</div>
 			</div>
 			<?php include 'footer.php' ?>
 		</div>

@@ -14,26 +14,28 @@
 		<div class="container-fluid">
 			<?php $filename = $_SERVER['PHP_SELF'];?>
 			<?php include 'header.php' ?>
+			<div class="container">
 			<div class="row">
-				<div class="col-sm-2"> </div>
-				<div class="col-sm-9">
+				<!--<div class="col-sm-2"> </div>-->
+				<div class="col-sm-12">
 			
-				<?php
-		         // include markdown content as seperate file for maintainability
-		          require_once("mdvoyage.md");
+					<?php
+			         // include markdown content as seperate file for maintainability
+			          require_once("mdvoyage.md");
 	          
-    		      //setup parsedown
-		          require_once("parsedown.php");
-		          $parsedown = new parsedown();
-		          
-		          //parse markdown as html
-		          echo $parsedown->text($markdown); 
-				?>
-				<?php include 'comments.php'?>
-				<?php include 'writeups.php'?>
-			</div>	
+	    		      //setup parsedown
+			          require_once("parsedown.php");
+			          $parsedown = new parsedown();
+			          
+			          //parse markdown as html
+			          echo $parsedown->text($markdown); 
+					?>
+					<?php include 'comments.php'?>
+					<?php include 'writeups.php'?>
+				</div>	
+			</div>
+		   </div>
 			<?php include 'footer.php'?>
-		</div>
 
 	</body>
 </html>
