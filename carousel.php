@@ -49,6 +49,12 @@ $(document).ready(function(){
 	$(".item4").click(function(){
 		$("#myCarousel").carousel(3);
 	});
+	$(".item5").click(function(){
+		$("#myCarousel").carousel(3);
+	});
+	$(".item6").click(function(){
+		$("#myCarousel").carousel(3);
+	});
     
 	 //Enable Carousel Controls
 	$(".left").click(function(){
@@ -73,6 +79,8 @@ $(document).ready(function(){
 	  <li class="item2"></li>
 	  <li class="item3"></li>
 	  <li class="item4"></li>
+	  <li class="item5"></li>
+	  <li class="item6"></li>
 	</ol>
 
 	<!-- Wrapper for slides -->
@@ -92,6 +100,14 @@ $(document).ready(function(){
 
 	  <div class="item">
 		<img src="images/Reflections.jpg" alt="Reflections" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
+	  </div>
+
+	  <div class="item">
+		<img src="images/Something for a rainy day.jpg" alt="Cloudy day" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
+	  </div>
+
+	  <div class="item">
+		<img src="images/Science.jpg" alt="Science as it was" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	</div>
