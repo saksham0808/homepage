@@ -38,7 +38,7 @@
 				</div>
 				
 				<div class="col-sm-6">
-					<h3 align="center">Academic awards and Scholarships:</h3>
+					<h3 align="center">Academic achievements and awards:</h3>
 					<table class="table table-hover">
 						<tbody>
 							<tr><td>2014</td><td>All India Rank <mark>138</mark> in Joint Entrance Exam Advanced 2014 among 150,000 candidates.</td></tr>
@@ -58,7 +58,7 @@
 					<table class="table table-hover">
 						<tbody>
 							<tr><td>C, C++, Python, Java, C# </td></tr>
-							<tr><td>HTML/CSS, PHP, JavaScript, Bootstrap</td></tr>
+							<tr><td>HTML/CSS, PHP, JavaScript, Scala, Bootstrap</td></tr>
 							<tr><td>Linux (Arch Linux and Debian based distributions)</td></tr>
 							<tr><td>OpenCV, Matlab/Octave</td></tr>
 							<tr><td>Windows phone and Android app development</td></tr>
@@ -89,10 +89,10 @@
 						<tbody align="center">
 							<tr><td>Software and App development</td></tr>
 							<tr><td>Linux and Open Source</td></tr>
+							<tr><td>Web Development</td></tr>
 							<tr><td>Algorithms</td></tr>
 							<tr><td>Machine Learning</td></tr>
 							<tr><td>Image Processing</td></tr>
-							<tr><td>Web Development</td></tr>
 						</tbody>
 					</table>
 				</div>
@@ -102,8 +102,8 @@
 					<table class="table table-hover">
 						<tbody align="right">
 							<tr><td>Introduction to Programming - Received A* grade for exceptional performance.</td></tr>
-							<tr><td>Real analysis</td></tr>
 							<tr><td>Linear Algebra</td></tr>
+							<tr><td>Introduction to Calculus</td></tr>
 							<tr><td>Ordinary differential equations</td></tr>
 							<tr><td>Mechanics</td></tr>
 							<tr><td>Electrodynamics</td></tr>
