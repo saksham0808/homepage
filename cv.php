@@ -41,6 +41,7 @@
 					<h3 align="center">Academic achievements and awards:</h3>
 					<table class="table table-hover">
 						<tbody>
+							<tr><td>2014-15</td><td>Cumulative Point Index of 10.0 after Semester I and II.</td></tr>
 							<tr><td>2014</td><td>All India Rank <mark>138</mark> in Joint Entrance Exam Advanced 2014 among 150,000 candidates.</td></tr>
 							<tr><td>2014</td><td>All India Rank <mark>10</mark> in Joint Entrance Exam Mains 2014 among 1.5 million candidates.</td></tr>
 							<tr><td>2014</td><td>Received the Aditya Birla Group Scholarship among 15 other IITans.</td></tr>
