@@ -58,7 +58,7 @@
 					<h3>Technical skills:</h3>
 					<table class="table table-hover">
 						<tbody>
-							<tr><td>C, C++, Python, Java, C# </td></tr>
+							<tr><td>C, C++, Python, Java, C#, Shell Scripting </td></tr>
 							<tr><td>HTML/CSS, PHP, JavaScript, Scala, Bootstrap</td></tr>
 							<tr><td>Linux (Arch Linux and Debian based distributions)</td></tr>
 							<tr><td>OpenCV, Matlab/Octave</td></tr>
