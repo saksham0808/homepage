@@ -1,5 +1,5 @@
 <?php
-$headeritems = array("index.php"=>"Home", "cv.php"=>"CV", "carousel.php"=>"Photography", "https://github.com/saksham0808"=>"GitHub", "Arch.pdf"=>"Ace Guide to Arch Linux", "contact.php"=>"Contact me");
+$headeritems = array("index.php"=>"Home", "cv.php"=>"CV", "carousel.php"=>"Photography", "https://github.com/saksham0808"=>"GitHub", "almanac.php"=>"Almanac", "contact.php"=>"Contact me");
 $headerwidth = "2";
 
 function echoclass($link) {
