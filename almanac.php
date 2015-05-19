@@ -25,6 +25,16 @@
 						Of note, I got the idea for this section from <a href="http://www.srijanshetty.in" target="_blank">srijanshetty.in</a>, the homepage of a senior from my Department at IITK. 
 						Well to be honest, I started making this website on seeing his.
 					</p>
+					
+					<h2>Some great Linux packages and hacks</h2>
+					<ul>
+						<li><a href="https://wiki.archlinux.org/index.php/Wine" target="_blank">Office 2010 on Linux with Wine</a>: Use Windows just for Office, because LibreOffice etc run out of steam sometime or the other? Read up here about how to install Office 2010 on Linux, and yes, it works perfectly. A tip: Install the packages mentioned here to install office, then use PlayOnLinux to install office finally. Keeps things streamlined.</li>
+						<li><a href="http://www.playonlinux.com" target="_blank">PlayOnLinux</a>: A really cool tool to get some Windows softwares working on Linux. Is basically a wrapper for Wine, but contains scripts written by people who got some really cool softwares working, and handles all the dependencies itself. Neat !</li>
+						<li><a href="https://cmus.github.io" target="_blank">CMUS</a>: A really nice Music Player for your terminal. There comes a time in almost every Linux lover's life when he/she wants to move all common tasks to the terminal and/or have Vim key bindings to accompany it. Remember CMUS when you reach there.</li>
+					</ul>
+
+
+					<h2>Tutorials and Books</h2>
 					<p>
 						<h3>Linux</h3>
 						<ul>
