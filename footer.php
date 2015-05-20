@@ -4,14 +4,14 @@ echo '
 			<div class="col-sm-3"> </div>
 			<div class="col-sm-3" align="right">
 				<small>
-					<a href="home.iitk.ac.in/~sakshams">home.iitk.ac.in/~sakshams</a><br>
+					<a href="http://home.iitk.ac.in/~sakshams">home.iitk.ac.in/~sakshams</a><br>
 					saksham0808@gmail.com <br> 
 					+91-7755058004
 				</small>
 			</div>
 			<div class="col-sm-3" align="left">
 				<small>
-					<a href="www.saksham_sharma.bitbucket.org">saksham_sharma.bitbucket.org</a><br>
+					<a href="http://saksham_sharma.bitbucket.org" target="_blank">saksham_sharma.bitbucket.org</a><br>
 					sakshams@iitk.ac.in<br>
 				</small>
 			</div>

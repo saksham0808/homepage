@@ -31,6 +31,7 @@
 						<li><a href="https://wiki.archlinux.org/index.php/Wine" target="_blank">Office 2010 on Linux with Wine</a>: Use Windows just for Office, because LibreOffice etc run out of steam sometime or the other? Read up here about how to install Office 2010 on Linux, and yes, it works perfectly. A tip: Install the packages mentioned here to install office, then use PlayOnLinux to install office finally. Keeps things streamlined.</li>
 						<li><a href="http://www.playonlinux.com" target="_blank">PlayOnLinux</a>: A really cool tool to get some Windows softwares working on Linux. Is basically a wrapper for Wine, but contains scripts written by people who got some really cool softwares working, and handles all the dependencies itself. Neat !</li>
 						<li><a href="https://cmus.github.io" target="_blank">CMUS</a>: A really nice Music Player for your terminal. There comes a time in almost every Linux lover's life when he/she wants to move all common tasks to the terminal and/or have Vim key bindings to accompany it. Remember CMUS when you reach there.</li>
+						<li><a href="https://wiki.archlinux.org/index.php/Ranger" target="_blank">Ranger</a>: A cool and really fast file manager for the terminal, which really doesn't feel like terminal. You may think file managers need to stay graphical, but your opinion might change on seeing this. It can do almost all, if not all your tasks faster than the graphical ones. Do check it out.</li>
 					</ul>
 
 
@@ -48,6 +49,7 @@
 						<h3>Scala</h3>
 						<ul>
 							<li><a href="http://www.amazon.com/Functional-Programming-Scala-Paul-Chiusano/dp/1617290653" target="_blank">Functional Programming with Scala by Paul Chiusano</a>: I found the exercises in this book pretty good for people new to functional programming. I enjoyed the hours I spent thinking of pure functional solutions to simple tasks (this is where I started with Functional Programming)</li>
+							<li><a href="https://www.twitter.github.io/scala_school" target="_blank">Twitter Scala School</a>: A bit for the more experienced programmers.</li>
 						</ul>
 						<h3>HTML/CSS/PHP</h3>
 						<ul>

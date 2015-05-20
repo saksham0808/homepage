@@ -30,7 +30,7 @@ I figured it would be a good idea if my journey through the world of code is pen
 	I no longer feel comfortable in normal Desktop managers now. Besides, being able to ditch the mouse totally (courtesy Vimium and Vimerator plugins for Chrome and Firefox respectively) is a huge boon.
 	Oh, and i3 as got great multi-monitor support, you would feel totally at home on a multi monitor setup within seconds (personal experience). If you are trying to become a seasoned and productive Linux user, I feel these things would serve you well.
 	<br>
-	I also like the GNOME Desktop Environment, although it is heavy and resouce hungry. It can be made to look exceptionally good looking, and yet be powerful. If tiling is not your cup of tea (or if you can do with the ShellShape plugin for GNOME shell), try GNOME 3 (Yes, Ubunutu users still stuck on Unity).
+	I also like the GNOME Desktop Environment, although it is heavy and resouce hungry. It can be made to look exceptionally good looking, and yet be powerful. If tiling is not your cup of tea (or if you can do with the ShellShape plugin for GNOME shell), try GNOME 3 (Yes, you Ubuntu users still stuck on Unity, you too).
 	</p>
 <br>
 	<span>Photography</span>
