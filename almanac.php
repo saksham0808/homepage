@@ -45,7 +45,11 @@
 						<h3>Haskell</h3>
 						<ul>
 							<li><a href="http://www.learnyouahaskell.com" target="_blank">Learn You a Haskell for Great Good</a>: An exceptional tutorial, very friendly and interesting. More tutorials should be like this.</li>
+							<li><a href="https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems" target="_blank">99 Haskell Problems</a>: Keep looking at a few exercises here once in a while. Interesting.</li>
+							<li><a href="http://dmi3s.blogspot.in/2012/07/how-to-learn-haskell.html" target="_blank">How to learn Haskell</a>: This isn't a tutorial but a guide about how to learn it, Nice effort.</li>
+							<li><a href="https://wiki.haskell.org/Hitchhikers_guide_to_Haskell" target="_blank">Hitchhiker's Guido to Haskell</a>: I just started reading this, but this one is promising too.</li>
 						</ul>
+						Of note, just don't end up confused about what to read from where. I would say go through 'Learn you a Haskell' first. Then Hitchhiker would be a good step.
 						<h3>Scala</h3>
 						<ul>
 							<li><a href="http://www.amazon.com/Functional-Programming-Scala-Paul-Chiusano/dp/1617290653" target="_blank">Functional Programming with Scala by Paul Chiusano</a>: I found the exercises in this book pretty good for people new to functional programming. I enjoyed the hours I spent thinking of pure functional solutions to simple tasks (this is where I started with Functional Programming)</li>
