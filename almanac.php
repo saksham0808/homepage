@@ -8,6 +8,9 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 		<LINK REL=StyleSheet HREF="custom.css" TYPE="text/css">
+
+		<style> li { font-size:17px; } </style>  <!-- To keep the text in lists (which isn't in a para) large -->
+
 		<title>Saksham Sharma</title>
 	</head>
 	<body>
