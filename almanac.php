@@ -35,6 +35,7 @@
 						<li><a href="http://www.playonlinux.com" target="_blank">PlayOnLinux</a>: A really cool tool to get some Windows softwares working on Linux. Is basically a wrapper for Wine, but contains scripts written by people who got some really cool softwares working, and handles all the dependencies itself. Neat !</li>
 						<li><a href="https://cmus.github.io" target="_blank">CMUS</a>: A really nice Music Player for your terminal. There comes a time in almost every Linux lover's life when he/she wants to move all common tasks to the terminal and/or have Vim key bindings to accompany it. Remember CMUS when you reach there.</li>
 						<li><a href="https://wiki.archlinux.org/index.php/Ranger" target="_blank">Ranger</a>: A cool and really fast file manager for the terminal, which really doesn't feel like terminal. You may think file managers need to stay graphical, but your opinion might change on seeing this. It can do almost all, if not all your tasks faster than the graphical ones. Do check it out.</li>
+						<li><a href="https://wiki.archlinux.org/index.php/Rxvt-unicode" target="_blank">rxvt-unicode</a>: A highly customizable terminal emulater. Use it when you finally take the leap and decide not to use any GNOME packages in your installation, for space usage purposes, or for your own mental peace. It can be made to behave exactly like GNOME Terminal, give my .Xresources a look in my-rc-files repo.</li>
 					</ul>
 
 
