@@ -44,7 +44,13 @@ So, learn the basic moves, you type in the Insert mode, you exit the insert mode
 * %: Move to a matching brace (when your cursor is one brace, this moves you to the matching one)
 
 Now to saving files, you can save any text you write with `:w`. Note that pressing ':' takes you to a special mode where you can type out commands. More on this later. 'w' stands for write. You can save a file you opened with `:w`, but if it was a new file, you would have to write something like `:w filename` to save it by that name in the current directory where Vim was opened.\n
-You can quit Vim with `:q`. Also, you can quit without saving changes by typing `:q!`
+You can quit Vim with `:q`. Also, you can quit without saving changes by typing `:q!`\n
+
+**The ':' commands**\n
+Vim can do various other non-editing stuff with the colon-commands. You want to change your colour-scheme? Type `:colorscheme <name>` and you're done (remember, Tab completion works here. Try experimenting with different schemes right now and choose one you like).\n
+Try typing `:set ` and then try Tab completion, you'll see the various settings you can play with.\n
+Of note, these commands stay active only till Vim is open. If you close it and re-open, these settings are gone. To keep them permanent, look at the section about the vimrc.
+
 
 content;
 

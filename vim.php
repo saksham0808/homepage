@@ -21,7 +21,7 @@
 			
 					<?php
 			         // include markdown content as seperate file for maintainability
-			          require_once("mdvim.md");
+			          require_once("mdfiles/mdvim.md");
 	          
 	    		      //setup parsedown
 			          require_once("parsedown.php");

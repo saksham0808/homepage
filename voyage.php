@@ -21,7 +21,7 @@
 			
 					<?php
 			         // include markdown content as seperate file for maintainability
-			          require_once("mdvoyage.md");
+			          require_once("mdfiles/mdvoyage.md");
 	          
 	    		      //setup parsedown
 			          require_once("parsedown.php");

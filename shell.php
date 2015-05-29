@@ -20,7 +20,7 @@
 			
 				<?php
 		         // include markdown content as seperate file for maintainability
-		          require_once("mdshell.md");
+		          require_once("mdfiles/mdshell.md");
 	          
     		      //setup parsedown
 		          require_once("parsedown.php");
