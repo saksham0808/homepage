@@ -36,7 +36,7 @@ $(document).ready(function(){
 				<div class="row">
 					<!--<div class="col-sm-2"></div>-->
 					<div class="col-sm-12">	
-						<h2><mark>Reveries of a programmerr</mark></h2>
+						<h2><mark>Reveries of a programmer</mark></h2>
 						<?php echo readfile("reverie.txt"); ?>
 						<?php include 'writeups.php'?>
 						<?php include 'comments.php'?>
