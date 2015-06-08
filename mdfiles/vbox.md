@@ -1,5 +1,5 @@
-<!--<?php -->
-<!--$markdown = <<<content-->
+<?php 
+$markdown = <<<content
 
 Running Windows inside Arch (and never having to leave Arch again)
 ========================
@@ -58,4 +58,4 @@ Now if you have a DVD drive, insert a DVD of Windows 8 and then start the machin
 
 
 content;
-<!--?>-->
+?>

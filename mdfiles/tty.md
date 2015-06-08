@@ -1,5 +1,5 @@
-<!--<?php -->
-<!--$markdown = <<<content-->
+<?php 
+$markdown = <<<content
 
 TTY Magic in Linux
 ======================
@@ -31,4 +31,4 @@ content;
 
 
 
-<!--?>-->
+?>
