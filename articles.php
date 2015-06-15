@@ -18,15 +18,15 @@
 			<div class="row">
 				<!--<div class="col-sm-2"> </div>-->
 				<div class="col-sm-12">
-			
+
 					<?php
-			         // include markdown content as seperate file for maintainability
-			          require_once("mdfiles/vbox.md");
+			          // include markdown content as seperate file for maintainability
+					  require_once("mdfiles/" . $_GET["name"] . ".md");
 	          
 	    		      //setup parsedown
 			          require_once("parsedown.php");
 			          $parsedown = new parsedown();
-			          
+
 			          //parse markdown as html
 			          echo $parsedown->text($markdown); 
 					?>
