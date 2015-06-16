@@ -1,18 +1,16 @@
 <?php
-$headeritems = array("index.php"=>"Home", "cv.php"=>"CV", "almanac.php"=>"My Almanac", "carousel.php"=>"Photography", "https://github.com/saksham0808"=>"GitHub", "contact.php"=>"Contact me");
+$path = $_SERVER['DOCUMENT_ROOT'];
+$headeritems = array("/public_html/index.php"=>"Home", "/public_html/cv.php"=>"CV", "/public_html/almanac.php"=>"My Almanac", "/public_html/carousel.php"=>"Photography", "https://github.com/saksham0808"=>"GitHub", "/public_html/contact.php"=>"Contact me");
 $headerwidth = "2";
 
 function echoclass($link) {
 	global $filename;
 	$itemclass = "";
-	// This name is long so we want the hover height to be larger
-	if ($link == "Arch.pdf")
-		$itemclass = "arch";
 
 	// Comparing current file name with link name using regex.
 	if (preg_match("/[a-z]+\.php$/", $filename, $matches))
 	{
-		if(strcmp("$matches[0]", $link)==0)
+		if(strcmp("$matches[0]", $link)==0 || strcmp("/public_html/" . "$matches[0]", $link)==0)
 			$itemclass="current";
 	}
 	return $itemclass;
@@ -36,7 +34,7 @@ echo '
 	</div>
 	<div class="col-sm-1 img-responsive pull-right box-shadow">
 		<br>
-		<img src="me.jpg" class="img-rounded" height="140" align="right" id="box-shadow-custom">
+		<img src="/public_html/img/me.jpg" class="img-rounded" height="140" align="right" id="box-shadow-custom">
 	</div>
 </div>
 <br>
