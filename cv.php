@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
@@ -11,12 +12,20 @@
 		<title>Saksham Sharma</title>
 	</head>
 	<body>
+	    <script type="text/javascript">
+		  $(document).ready(function() {
+	              $('#skill a[title]').qtip({
+	    	    	    content: {
+	    	    		  text: false
+	    	    	    },
+	    	    	    style: 'cream'
+	    	          });
+		  });
+            </script>
+
 		<div class="container-fluid">
 
 <?php $filename = $_SERVER['PHP_SELF'];?>
-<?php
-
-?>
 <?php include 'header.php' ?>
 			<div class="row">
 				<div class="col-sm-6">
@@ -55,23 +64,23 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-3">
-					<h3>Technical skills:</h3>
+					<h3 align="center">Technical skills:</h3>
 					<table class="table table-hover">
-						<tbody>
-							<tr><td>C, C++, Python, Java, C#, Shell Scripting </td></tr>
-							<tr><td>HTML/CSS, PHP, JavaScript, Scala, Bootstrap</td></tr>
-							<tr><td>Linux (Arch Linux and Debian based distributions)</td></tr>
-							<tr><td>OpenCV, Matlab/Octave</td></tr>
-							<tr><td>Windows phone and Android app development</td></tr>
-							<tr><td>Vim, Git, Regex, Emacs, various other CLI utilities.</td></tr>
-							<tr><td>Microsoft Kinect, Arduino</td></tr>
-							<tr><td>Microsoft Visual Studio, Microsoft Office</td></tr>
-						</tbody>
+					      <tbody align="center">
+						    <tr><td><div id="skill"><a title="Expert">C++</a>, <a title="Proficient">Python</a>, <a title="Proficient">Java</a>, <a title="Intermediate">C#</a>, <a title="Expert">Shell Scripting</a> </div></td></tr>
+						    <tr><td><div id="skill"><a title="Proficient">HTML/CSS</a>, <a title="Intermediate">PHP</a>, <a title="Intermediate">JavaScript</a>, <a title="Intermediate">Scala</a>, <a title="Proficient">Bootstrap</a></div></td></tr>
+						    <tr><td><div id="skill">Linux (<a title="Expert">Arch Linux</a> and <a title="Proficient">Debian</a> based distributions)</td></tr>
+						    <tr><td><div id="skill"><a title="Proficient">OpenCV</a>, <a title="Intermediate">Matlab/Octave</a></td></tr>
+						    <tr><td><div id="skill"><a title="Proficient">Windows phone</a> and <a title="Beginner">Android</a> app developmenti</div></td></tr>
+						    <tr><td><div id="skill"><a title="Expert">Vim</a>, <a title="Expert">Git</a>, <a title="Expert">Regex</a>, various other CLI utilities.</div></td></tr>
+						    <tr><td><div id="skill"><a title="Intermediate">Microsoft Kinect</a>, <a title="Intermediate">Arduino</a></div></td></tr>
+						    <tr><td><div id="skill"><a title="Proficient">Microsoft Visual Studio</a>, <a title="Proficient">Microsoft Windows</a>, <a title="Proficient">Microsoft Office</a></div></td></tr>
+					      </tbody>
 					</table>
 				</div>
 
 				<div class="col-sm-3">
-					<h3 align="left">Education:</h3>
+					<h3 align="center">Education:</h3>
 					<table class="table table-hover table-striped">
 						<tbody align="left">
 							<tr><td>2014-Present</td><td>Bachelor of Technology, Computer Science and Engineering</td></tr>
@@ -99,9 +108,9 @@
 				</div>
 
 				<div class="col-sm-3">
-					<h3 align="right">Relevant courses:</h3>
+					<h3 align="center"">Relevant courses:</h3>
 					<table class="table table-hover">
-						<tbody align="right">
+						<tbody align="center"">
 							<tr><td>Introduction to Programming - Received A* grade for exceptional performance.</td></tr>
 							<tr><td>Linear Algebra</td></tr>
 							<tr><td>Introduction to Calculus</td></tr>
@@ -113,35 +122,9 @@
 					</table>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-3">
-					<br><br>
-					&copy; 2014-<?php echo date("Y")?>
-				</div>
-				<div class="col-sm-3" align="right">
-					<small>
-						<a href="home.iitk.ac.in/~sakshams">home.iitk.ac.in/~sakshams</a><br>
-						saksham0808@gmail.com <br> 
-						+91-7755058004
-					</small>
-				</div>
-				<div class="col-sm-3" align="left">
-					<small>
-						<a href="www.saksham_sharma.bitbucket.org">saksham_sharma.bitbucket.org</a><br>
-						sakshams@iitk.ac.in<br>
-					</small>
-				</div>
-
-				<div align="right" class="col-sm-3"> 
-					<!-- hitwebcounter Code START -->
-					<a href="http://www.hitwebcounter.com/htmltutorial.php" target="_blank">
-						<img src="http://hitwebcounter.com/counter/counter.php?page=6051596&style=0008&nbdigits=5&type=ip&initCount=0" title="http://www.hitwebcounter.com/htmltutorial.php" Alt="http://www.hitwebcounter.com/htmltutorial.php"   border="0" >
-					</a><br>
-					<a href="http://www.hitwebcounter.com/internetcountercontact.php" title="Hitwebcounter" target="_blank" style="font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #6A7175; text-decoration: underline ;"><strong>Hitwebcounter</strong> </a>   
-
-				</div>
-			</div>
+			<?php include 'footer.php' ?>
 		<!-- Closing tag for the container-fluid follows -->
 		</div>
+		<script type="text/javascript" src="http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"></script>
 	</body>
 </html>

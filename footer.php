@@ -6,12 +6,11 @@ echo '
 				<small>
 					<a href="http://home.iitk.ac.in/~sakshams">home.iitk.ac.in/~sakshams</a><br>
 					saksham0808@gmail.com <br> 
-					+91-7755058004
 				</small>
 			</div>
 			<div class="col-sm-3" align="left">
 				<small>
-					<a href="http://saksham_sharma.bitbucket.org" target="_blank">saksham_sharma.bitbucket.org</a><br>
+					+91-7755058004<br>
 					sakshams@iitk.ac.in<br>
 				</small>
 			</div>
