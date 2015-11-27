@@ -9,41 +9,33 @@
 
 		<LINK REL=StyleSheet HREF="custom.css" TYPE="text/css">
 		<title>Saksham Sharma</title>
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $(window).on('scroll',function() {
-    var scrolltop = $(this).scrollTop();
- 
-    if(scrolltop >= 215) {
-      $('#navbackup').fadeIn(250);
-    }
-     
-    else if(scrolltop <= 210) {
-      $('#navbackup').fadeOut(250);
-    }
-  });
-});
-</script>
-
-
 	</head>
 	<body>
 		<div class="container-fluid">
 			<?php $filename = $_SERVER['PHP_SELF'];?>
 			<?php include 'header.php' ?>
 			<div class="container">
-				<div class="row">
-					<!--<div class="col-sm-2"></div>-->
-					<div class="col-sm-12">	
-						<h2><mark>Reveries of a programmer</mark></h2>
-						<?php echo readfile("reverie.txt"); ?>
-						<?php include 'writeups.php'?>
-						<?php include 'comments.php'?>
-					</div>	
-				</div>
+			<div class="row">
+				<!--<div class="col-sm-2"> </div>-->
+				<div class="col-sm-12">
+
+					<?php
+			          // include markdown content as seperate file for maintainability
+					  require_once("mdfiles/" . $_GET["name"] . ".md");
+	          
+	    		      //setup parsedown
+			          require_once("parsedown.php");
+			          $parsedown = new parsedown();
+
+			          //parse markdown as html
+			          echo $parsedown->text($markdown); 
+					?>
+					<?php include 'comments.php'?>
+					<?php include 'writeups.php'?>
+				</div>	
 			</div>
-			<?php include 'footer.php' ?>
-		</div>
+		   </div>
+			<?php include 'footer.php'?>
+
 	</body>
 </html>

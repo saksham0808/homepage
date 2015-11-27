@@ -8,7 +8,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-		<LINK REL=StyleSheet HREF="/public_html/css/custom.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="custom.css" TYPE="text/css">
 		<title>Saksham Sharma</title>
 	</head>
 	<body>
@@ -26,7 +26,7 @@
 		<div class="container-fluid">
 
 <?php $filename = $_SERVER['PHP_SELF'];?>
-<?php include 'page_elements/header.php' ?>
+<?php include 'header.php' ?>
 			<div class="row">
 				<div class="col-sm-6">
 					<h3 align="center">Experience and Positions held:</h3>
@@ -122,7 +122,7 @@
 					</table>
 				</div>
 			</div>
-			<?php include 'page_elements/footer.php' ?>
+			<?php include 'footer.php' ?>
 		<!-- Closing tag for the container-fluid follows -->
 		</div>
 		<script type="text/javascript" src="http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"></script>

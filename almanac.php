@@ -7,7 +7,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-		<LINK REL=StyleSheet HREF="/public_html/css/custom.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="custom.css" TYPE="text/css">
 
 		<style> li { font-size:17px; } </style>  <!-- To keep the text in lists (which isn't in a para) large -->
 
@@ -16,7 +16,7 @@
 	<body>
 		<div class="container-fluid">
 			<?php $filename = $_SERVER['PHP_SELF'];?>
-			<?php include 'page_elements/header.php' ?>
+			<?php include 'header.php' ?>
 			<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -65,12 +65,12 @@
 						</ul>
 
 					
-					<?php include 'page_elements/comments.php'?>
-					<?php include 'page_elements/writeups.php'?>
+					<?php include 'comments.php'?>
+					<?php include 'writeups.php'?>
 				</div>	
 			</div>
 		   </div>
-			<?php include 'page_elements/footer.php'?>
+			<?php include 'footer.php'?>
 
 	</body>
 </html>

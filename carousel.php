@@ -22,14 +22,14 @@
 	</style>
 
 
-		<LINK REL=StyleSheet HREF="css/custom.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="custom.css" TYPE="text/css">
 		<title>Saksham Sharma</title>
 	</head>
 	<body>
 		<div class="container-fluid">
 
 <?php $filename = $_SERVER['PHP_SELF'];?>
-<?php include 'page_elements/header.php' ?>
+<?php include 'header.php' ?>
 
 <script>
 $(document).ready(function(){
@@ -87,27 +87,27 @@ $(document).ready(function(){
 	<div class="carousel-inner" role="listbox">
 
 	  <div class="item active">
-		<img src="img/Fall.jpg" alt="Fall" class="img-rounded displayed" id="box-shadow-custom">
+		<img src="images/Fall.jpg" alt="Fall" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	  <div class="item">
-		<img src="img/Juhu.jpg" alt="Juhu" class="img-rounded displayed" id="box-shadow-custom">
+		<img src="images/Juhu.jpg" alt="Juhu" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	  <div class="item">
-		<img src="img/long.jpg" alt="Long way to go" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
+		<img src="images/long.jpg" alt="Long way to go" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	  <div class="item">
-		<img src="img/Reflections.jpg" alt="Reflections" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
+		<img src="images/Reflections.jpg" alt="Reflections" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	  <div class="item">
-		<img src="img/Something for a rainy day.jpg" alt="Cloudy day" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
+		<img src="images/Something for a rainy day.jpg" alt="Cloudy day" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	  <div class="item">
-		<img src="img/Science.jpg" alt="Science as it was" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
+		<img src="images/Science.jpg" alt="Science as it was" width="460" height="345" class="img-rounded displayed" id="box-shadow-custom">
 	  </div>
 
 	</div>
