@@ -7,7 +7,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-		<LINK REL=StyleSheet HREF="/public_html/css/custom.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="/css/custom.css" TYPE="text/css">
 
 		<style> li { font-size:17px; } </style>  <!-- To keep the text in lists (which isn't in a para) large -->
 
