@@ -1,5 +1,5 @@
 <?php
-$headeritems = array("legacy.php"=>"Home", "cv.php"=>"CV", "almanac.php"=>"My Almanac", "carousel.php"=>"Photography", "https://github.com/saksham0808"=>"GitHub", "contact.php"=>"Contact me");
+$headeritems = array("legacy.php"=>"Home", "cv.php"=>"CV", "almanac.php"=>"My Almanac", "carousel.php"=>"Photography", "https://github.com/sakshamsharma"=>"GitHub", "contact.php"=>"Contact me");
 $headerwidth = "2";
 
 function echoclass($link) {
@@ -19,7 +19,7 @@ function echoclass($link) {
 }
 
 function echotarget($link) {
-	if ($link == "Arch.pdf" || $link == "https://github.com/saksham0808")
+	if ($link == "Arch.pdf" || $link == "https://github.com/sakshamsharma")
 		return 'target="_blank"';
 }
 

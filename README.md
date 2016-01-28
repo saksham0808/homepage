@@ -1,8 +1,8 @@
 # Saksham's homepage, version 1
-**DEPRECIATED** in favour of [acehack.org](https://github.com/saksham0808/saksham0808.github.io)
+**DEPRECIATED** in favour of [acehack.org](https://github.com/sakshamsharma/sakshamsharma.github.io)
 Repository containing source code for my homepage (PHP, HTML/CSS, Bootstrap).
 Please note, this was written at a time when I didn't know anything about Javascript or Web Dev. The code isn't worth much now :)
-Inspite of that, it is live at [my college homepage](http://home.iitk.ac.in/~sakshams).
+Inspite of that, it is live at [my college homepage](http://home.iitk.ac.in/~sakshams/legacy.php).
 
 **Highlights:**
 

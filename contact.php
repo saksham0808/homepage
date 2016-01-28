@@ -29,7 +29,7 @@
 				</div>
 				<div class="col-sm-4">
 					<a target="_blank" href="https://in.linkedin.com/pub/saksham-sharma/b2/230/204"><img src="./images/linkedin.png" class="displayed"></a><br>
-					<a target="_blank" href="https://github.com/saksham0808"><img src="./images/GitHub.jpg" class="displayed"></a><br>
+					<a target="_blank" href="https://github.com/sakshamsharma"><img src="./images/GitHub.jpg" class="displayed"></a><br>
 					<a target="_blank" href="https://facebook.com/saksham08"><img src="./images/facebook.png" class="displayed"></a><br>
 					<a target="_blank" href="https://instagram.com/saksham0808"><img src="./images/insta.jpg" class="displayed"></a><br>
 				</div>	
